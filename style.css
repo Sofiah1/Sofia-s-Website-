@@ -1,0 +1,130 @@
+
+        body{
+            background-color: rgb(230, 221, 225);
+
+        }
+        .navigation {
+            text-align: center;
+            background: url(how-to-create-cool-website-backgrounds-the-ultimate-guide.png);
+            background-size: cover;
+            position: relative;
+            overflow: visible;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            height: 350px;
+            }
+
+        .navigation .navigation-title {
+            color: #fefefe;
+            }
+
+        .navigation-menu {
+            float: none;
+            position: absolute;
+            text-align: center;
+            margin: 0 auto;
+            bottom: 0;
+            width: 100%;
+            }
+
+        .navigation-menu li {
+            float: none;
+            display: inline-block;
+            }
+
+        .navigation-menu li a {
+            padding: 0.9rem 1rem;
+            font-size: 0.75rem;
+            color: #fefefe;
+            text-transform: uppercase;
+            display: block;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: all 0.35s ease-in-out;
+            }
+
+        .navigation-menu li a.is-active {
+            background: rgba(254, 254, 254, 0.15);
+            }
+
+        .navigation-menu li a:hover {
+            background: rgba(254, 254, 254, 0.15);
+            }
+        .aboutMe{
+            display:flex;
+            justify-content: space-between;
+            padding: 40px;
+            width:85%
+
+        }
+        .aboutMe h1{
+            margin:0;
+            font-weight: bold;
+            padding: 0rem 10rem;
+        }
+        .aboutMe img{
+            height:550px;
+        }
+        .imageRow{
+            display: flex;
+            gap:10px;
+            margin-left:200px;
+            margin-right:200px;
+            background-color: rgb(243, 129, 180);
+        }
+        .rowHeading{
+            text-align: center;
+        }
+        .IntroText{
+            text-align: center;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        .rowText{
+            display: flex;
+            gap:50px;
+            margin-left:200px;
+            margin-right:200px;
+        }
+        .Keety{
+            display:flex;
+            justify-content: space-between;
+            padding: 40px;
+            width:85%;
+            gap:50px;
+
+        }
+        .Keety h1{
+            margin:0;
+            font-weight: bold;
+            padding: 0rem 10rem;
+        }
+        .Keety img{
+            height:350px;
+        }
+
+        .Mika{
+            display:flex;
+            justify-content: space-between;
+            padding: 40px;
+            width:85%;
+            gap:50px;
+
+        }
+        .Mika h1{
+            margin:0;
+            font-weight: bold;
+            padding: 0rem 10rem;
+        }
+        .Mika img{
+            height:550px;
+        }
+
+       
